@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/*reset*/
+* {margin: 0; padding: 0;}
+body{font-family: 'Pretendard-Regular';}
+a{color: #222;text-decoration: none;}
+li{list-style: none;}
+table{border-collapse: collapse;}
+img{vertical-align: top;}
+fieldset, button, img {border: 0;}
+legend{font-size: 0;color: transparent; text-indent: -9999px;}
+
+/*아이디 패스워드 쳤을때 보더같은 아웃라인이 안생기게 함*/
+input{outline: 0;} 
+
+
+.autoH:after{content: ""; display: block; clear: both;}
