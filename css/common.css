@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 
-body{background: #f3f3f3;}
+body{background: #fff;}
 
 *::-webkit-scrollbar {
      width: 5px;
@@ -171,7 +171,7 @@ header nav .gnb .lnb li a{color: #fff; display: block;text-indent: 45px;}
     position: relative; overflow: hidden;}
     
     #visual_sub:before{content: ""; position: absolute;width: 100%;height: 100%;
-         background:linear-gradient(135deg,#04283f,#04283f);z-index: 1; opacity: 0.68;}
+         background:linear-gradient(135deg,#112444,#112444);z-index: 1; opacity: 0.68;}
      
     
     #visual_sub .model{ position: absolute; left: 50%; top: 0; transform: translateX(-50%); 
@@ -206,7 +206,7 @@ header nav .gnb .lnb li a{color: #fff; display: block;text-indent: 45px;}
     
     /*section_sub*/
     #section_sub{min-width: 1043px;}
-    #section_sub .snb{background: #214964; border-bottom: 1px solid #ddd; 
+    #section_sub .snb{background: #112444; border-bottom: 1px solid #ddd; 
     display: flex; justify-content: center;}
     #section_sub .snb li{ height: 55px;line-height: 55px;}
     #section_sub .snb li a{  display: block; padding: 0 20px;color: #fff;}
@@ -226,14 +226,14 @@ header nav .gnb .lnb li a{color: #fff; display: block;text-indent: 45px;}
     #section_sub .snb li:nth-child(5):hover ~ .line{left: 625px; width: 60px;}
      */
     
-    #content_box {padding-bottom: 150px;}
+    #content_box {padding-bottom: 80px;}
     #content_box .centerbox{width: 1100px;}
     
 
     
     #content_box .ex_box{text-align: center; margin: 25px 0 100px 0;}
     #content_box h2{width: 600px;height: 95px;line-height: 95px;margin: 0 auto;
-    border-bottom: 1px solid #ddd; font-size: 36px;text-align: center; color: #0c3855;}
+     font-size: 36px;text-align: center; color: #30518a;}
     #content_box .ex_box em{font-size: 32px;color: #48556a;font-style: normal;
     text-align: center; position: relative;}
     #content_box .ex_box em span{font-size: 50px;font-family: 'NanumBarunGothic', sans-serif;
@@ -243,7 +243,7 @@ header nav .gnb .lnb li a{color: #fff; display: block;text-indent: 45px;}
 
     
     /*footer*/
-    #footer{height: 280px; background: #0c3048; min-width: 1043px;}
+    #footer{height: 280px; background: #112444; min-width: 1043px;}
     #footer .centerbox{ position: relative; top: 90px;}
     #footer .footerLogo{float: left; margin-top: 25px; }
     #footer .addWrap{font-weight: bold;font-size: 19px;  position: absolute;left: 320px;top: -10px; /* width: 1000px; */}
